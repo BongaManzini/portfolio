@@ -28,24 +28,34 @@ A modern, high-performance developer portfolio engineered with **React 19**, **T
 - **[Master Planner Pro](https://github.com/BongaManzini/master-planner-pro)**: High-contrast neo-brutalist daily productivity dashboard with local storage persistence.
 - **[Sociology Nexus Platform](https://github.com/BongaManzini/sociology-nexus)**: Interactive sociology learning platform built with Go, Chi router, and Templ components.
 
-### 🤖 AI, Machine Learning & Data Science
-- **[CivicPulse](https://github.com/BongaManzini/CivicPulse)**: DIRISA SDC 2026: Geospatial ML analysis of political geography and voter turnout ahead of the 2026 LGE.
+### 🛡️ Cybersecurity (Cybersec)
+- **[DeepSentryAI](https://github.com/BongaManzini/deep-sentry-ai)**: Real-time call center defense platform detecting synthetic deepfake voice clones, manipulated video feeds, and anomalous network telemetries.
+- **[Self-Healing Network System](https://github.com/BongaManzini/self-healing-network)**: Autonomous AI network threat defense system with real-time threat detection and zero-touch firewall policy remediation.
+- **[UbuntuSec Awareness Platform](https://github.com/BongaManzini/ubuntu-sec)**: Gamified cybersecurity education platform inspired by the Ubuntu philosophy ([Live Demo](https://bongamanzini.github.io/ubuntu-sec/)).
+- **[Cybersecurity Threat Intelligence Dashboard](https://github.com/BongaManzini/cybersecurity-threat-dashboard)**: Threat intelligence telemetry dashboard analyzing network attack vectors across 40,000+ incident logs with Jupyter and Voilà.
+
+### 💻 Software Engineering & Web Systems
+- **[SkyApp – AR Celestial Planetarium](https://github.com/BongaManzini/sky-app)**: Mobile-first 3D celestial star map with camera augmented reality overlay, sidereal astronomy algorithms, and offline PWA support ([Live Demo](https://bongamanzini.github.io/sky-app/)).
+- **[June 16 – Soweto Memorial Experience](https://github.com/BongaManzini/june16-memorial-site)**: Interactive 3D spatial digital memorial honoring the 1976 Soweto Uprising using Three.js and WebGL ([Live Demo](https://bongamanzini.github.io/june16-memorial-site/)).
+- **[UNISA Nexus Hub](https://github.com/BongaManzini/unisa-nexus-hub)**: Accessible campus resource and utility portal engineered with React 19, TypeScript, and Shadcn UI ([Live Demo](https://bongamanzini.github.io/unisa-nexus-hub/)).
+- **[Master Planner Pro](https://github.com/BongaManzini/master-planner-pro)**: High-contrast neo-brutalist daily productivity dashboard with local storage persistence ([Live Demo](https://bongamanzini.github.io/master-planner-pro/)).
+- **[Sociology Nexus Platform](https://github.com/BongaManzini/sociology-nexus)**: Interactive sociology learning platform built with Go, Chi router, and high-performance Templ components.
+
+### 🤖 Artificial Intelligence & Machine Learning (AI / ML)
+- **[FocusFlux](https://github.com/BongaManzini/focusflux)**: Full-stack ADHD and cognitive accessibility ecosystem featuring 8 cognitive training games and Google Gemini AI conversational support ([Live Demo](https://bongamanzini.github.io/focusflux/)).
 - **[ByteCraft – Student Risk Predictor](https://github.com/BongaManzini/bytecraft-student-risk)**: Higher-education predictive analytics platform utilizing Random Forest classification to forecast student dropout risk.
 - **[ImageSense – OCR to Excel Pipeline](https://github.com/BongaManzini/imagesense-ocr)**: Computer vision OCR pipeline converting scanned documents, receipts, and invoices into styled Excel spreadsheets.
-- **[Matric Examination Pass-Rate Analytics](https://github.com/BongaManzini/matric-results-analytics)**: National Senior Certificate educational analytics pipeline parsing multi-district examination records.
-- **[Algorithmic Trading & Momentum Indicators](https://github.com/BongaManzini/algorithmic-trading-models)**: Quantitative models calculating RSI momentum indicators and SMA crossovers.
-- **[StudyPlan Assistant](https://github.com/BongaManzini/StudyPlan)**: Adaptive curriculum intelligence system parsing syllabi and lecture transcripts to synthesize custom study plans.
+- **[Algorithmic Trading & Momentum Indicators](https://github.com/BongaManzini/algorithmic-trading-models)**: Quantitative trading models calculating RSI momentum indicators and 50/200-day SMA crossovers.
+- **[StudyPlan Assistant](https://github.com/BongaManzini/StudyPlan)**: Adaptive curriculum intelligence system parsing syllabi and lecture transcripts to synthesize custom study pathways.
 
-### 🛡️ Security & Systems Infrastructure
-- **[DeepSentryAI](https://github.com/BongaManzini/deep-sentry-ai)**: Real-time call center defense platform detecting deepfake audio, manipulated video feeds, and anomalous network activity.
-- **[Self-Healing Network System](https://github.com/BongaManzini/self-healing-network)**: Autonomous AI network threat defense system with real-time threat detection and zero-touch policy remediation.
-- **[UbuntuSec Awareness Platform](https://github.com/BongaManzini/ubuntu-sec)**: Gamified cybersecurity awareness education platform inspired by the Ubuntu philosophy.
-- **[Cybersecurity Threat Dashboard](https://github.com/BongaManzini/cybersecurity-threat-dashboard)**: Threat intelligence dashboard analyzing attack vectors across 40,000+ incident logs with Jupyter and Voilà.
-- **[Media Cloud Syncer](https://github.com/BongaManzini/media-cloud-syncer)**: Modern desktop media downloader and automated cloud synchronization utility built with Python and CustomTkinter.
+### 📊 Data Science & Geospatial Analytics (DS)
+- **[CivicPulse](https://github.com/BongaManzini/CivicPulse)**: DIRISA Student Datathon 2026 Finalist: Geospatial ML analysis of political geography, deprivation friction indices, and voter turnout ahead of the 2026 LGE ([Live Demo](https://civicpulse-gauteng-2026.netlify.app/)).
+- **[Matric Examination Pass-Rate Analytics](https://github.com/BongaManzini/matric-results-analytics)**: South African National Senior Certificate educational analytics pipeline parsing multi-district examination records.
 
-### 🧩 Browser Automation Extensions
-- **[DevDesk Pro & IT Support Hub](https://github.com/BongaManzini/devdesk-pro)**: Manifest V3 browser automation extension for service desk ticket clearance and QueueMetrics scraping.
-- **[IT Support Tools Hub](https://github.com/BongaManzini/it-support-tools-hub)**: Manifest V3 extension providing hotkey macros and rapid resolution toolkits for IT helpdesk engineers.
+### 🛠️ IT Support & Browser Automation
+- **[DevDesk Pro & IT Support Hub](https://github.com/BongaManzini/devdesk-pro)**: Manifest V3 browser automation extension for service desk ticket clearance, Telviva unlocking, and QueueMetrics call scraping.
+- **[IT Support Tools Hub](https://github.com/BongaManzini/it-support-tools-hub)**: Manifest V3 extension providing hotkey macros, canned responses, and ticket resolution toolkits for IT helpdesk engineers.
+- **[Media Cloud Syncer](https://github.com/BongaManzini/media-cloud-syncer)**: Modern desktop media downloader and automated cloud synchronization utility built with Python, CustomTkinter, and yt-dlp.
 
 ---
 

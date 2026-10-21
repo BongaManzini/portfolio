@@ -47,6 +47,18 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #334155;
       }
+      @media print {
+        body {
+          background-color: #ffffff !important;
+          color: #0f172a !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body class="selection:bg-cyan-500/20 selection:text-cyan-300 min-h-screen">

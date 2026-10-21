@@ -184,6 +184,17 @@ const PROJECTS: Project[] = [
     highlight: 'Threat Intelligence Telemetry',
     deployment: 'Jupyter & Voilà'
   },
+  {
+    id: 'cpp-network-monitor',
+    title: 'Network Threat Monitor (C++ / WinPcap)',
+    field: 'Cybersecurity',
+    description: 'High-speed Windows desktop packet sniffer and heuristic threat detection utility built in C++ with WinPcap and native Win32 controls.',
+    fullDetails: 'Captures raw IPv4 network traffic directly from physical adapter interfaces in real time. Implements heuristic detection algorithms for port scans, MITM address resolution poisonings, and abnormal bandwidth consumption with a native Win32 GUI HUD.',
+    tags: ['C++', 'WinPcap / Npcap', 'Network Security', 'Win32 API', 'Packet Sniffer', 'Heuristic Detection'],
+    github: 'https://github.com/BongaManzini/network-threat-monitor-cpp',
+    highlight: 'Low-Level Packet Analysis',
+    deployment: 'Win32 Desktop Executable'
+  },
 
   // 3. AI & MACHINE LEARNING
   {
@@ -242,6 +253,29 @@ const PROJECTS: Project[] = [
     github: 'https://github.com/BongaManzini/StudyPlan',
     highlight: 'Adaptive Study Synthesis',
     deployment: 'TypeScript Application'
+  },
+  {
+    id: 'mintek-flotation',
+    title: 'Mintek Flotation AI Optimizer',
+    field: 'AI & Machine Learning',
+    description: 'Industrial mineral processing AI model optimizing reagent dosing and predicting silica impurity in iron ore froth flotation.',
+    fullDetails: 'Engineered for the Mintek Graduate Hackathon. Solves the complex multi-phase chemical problem of predicting silica impurity (% SiO2) in flotation concentrates based on reagent feed rates (starch, amine), pulp airflow, and slurry pH. Implements feature importance attribution and dynamic dosing recommendations to maximize metallurgical recovery while cutting reagent waste.',
+    tags: ['Mintek Hackathon', 'Python', 'scikit-learn', 'Mineral Processing', 'Industrial AI', 'Data Science', 'Pandas'],
+    github: 'https://github.com/BongaManzini/mintek-flotation-ai-optimizer',
+    highlight: 'Industrial AI Mineral Optimizer',
+    deployment: 'Python AI Pipeline',
+    featured: true
+  },
+  {
+    id: 'youtube-commentary-intel',
+    title: 'YouTube Commentary NLP & Sentiment Engine',
+    field: 'AI & Machine Learning',
+    description: 'Audience intelligence and commentary sentiment classification pipeline parsing user discourse and topical sentiment across video channels.',
+    fullDetails: 'Processes unstructured viewer comment streams using VADER sentiment scoring and semantic classification. Automatically clusters feedback into actionable categories (feature requests, complaints, praise, bug reports) to inform creator content strategy.',
+    tags: ['NLP', 'Python', 'Sentiment Analysis', 'VADER', 'YouTube Data API', 'Audience Analytics'],
+    github: 'https://github.com/BongaManzini/youtube-commentary-intel',
+    highlight: 'Audience Intelligence NLP',
+    deployment: 'Python NLP Service'
   },
 
   // 4. SOFTWARE ENGINEERING & WEB APPS
@@ -305,6 +339,17 @@ const PROJECTS: Project[] = [
     github: 'https://github.com/BongaManzini/sociology-nexus',
     highlight: 'Modern Full-Stack Go Architecture',
     deployment: 'Go HTTP Microservice'
+  },
+  {
+    id: 'unisupport-specs',
+    title: 'UniSupport Student Platform Specifications',
+    field: 'Software Engineering',
+    description: 'Crowdsourced student assistance ecosystem blueprints, data schemas, verification models, and open-source tooling architecture.',
+    fullDetails: 'Comprehensive system specification covering student peer support crowdsourcing, academic resource verification workflows, database schemas, and microservice integration blueprints tailored for African tertiary education institutions.',
+    tags: ['System Architecture', 'EdTech Specs', 'Data Schemas', 'Crowdsourcing Blueprints', 'Technical Writing'],
+    github: 'https://github.com/BongaManzini/unisupport-architecture-specs',
+    highlight: 'Crowdsourced EdTech Blueprints',
+    deployment: 'System Architecture Specs'
   },
 
   // 5. IT SUPPORT & AUTOMATION
@@ -464,6 +509,17 @@ const PROJECTS: Project[] = [
     liveUrl: 'https://bongamanzini.github.io/telco-sentiment-sentinel/',
     highlight: 'Real-Time ISP Anger Index',
     deployment: 'GitHub Pages & Python CLI'
+  },
+  {
+    id: 'tech-proposals-research',
+    title: 'Informatics Research & Innovation Challenge Proposals',
+    field: 'Data Science',
+    description: 'Curated repository of technical challenge submissions (GKSS, IBM), AI career guidance system architectures, and informatics research papers.',
+    fullDetails: 'Contains competition papers, AI-driven career guidance algorithms, zero-trust perimeter routing slides (IronTunnel), and historical legislative data analysis.',
+    tags: ['Research Proposals', 'IBM Innovation', 'GKSS Challenge', 'Informatics', 'Zero-Trust Architecture'],
+    github: 'https://github.com/BongaManzini/tech-proposals-and-research',
+    highlight: 'Innovation & Research Papers',
+    deployment: 'Research & Publications'
   }
 ];
 

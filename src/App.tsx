@@ -251,6 +251,62 @@ const PROJECTS: Project[] = [
     github: 'https://github.com/BongaManzini/it-support-tools-hub',
     highlight: 'Configurable Macro Automation',
     deployment: 'Chrome Web Store / MV3'
+  },
+  {
+    id: 'mintek-flotation',
+    title: 'Mintek Flotation AI Optimizer',
+    category: 'AI & ML',
+    description: 'Industrial mineral processing AI model optimizing reagent dosing and predicting silica impurity in iron ore froth flotation.',
+    fullDetails: 'Engineered for the Mintek Graduate Hackathon. Solves the complex multi-phase chemical problem of predicting silica impurity (% SiO2) in flotation concentrates based on reagent feed rates (starch, amine), pulp airflow, and slurry pH. Implements feature importance attribution and dynamic dosing recommendations to maximize metallurgical recovery while cutting reagent waste.',
+    tags: ['Mintek Hackathon', 'Python', 'scikit-learn', 'Mineral Processing', 'Industrial AI', 'Data Science', 'Pandas'],
+    github: 'https://github.com/BongaManzini/mintek-flotation-ai-optimizer',
+    highlight: 'Industrial AI Mineral Optimizer',
+    deployment: 'Python AI Pipeline',
+    featured: true
+  },
+  {
+    id: 'youtube-commentary-intel',
+    title: 'YouTube Commentary NLP & Sentiment Engine',
+    category: 'AI & ML',
+    description: 'Audience intelligence and commentary sentiment classification pipeline parsing user discourse and topical sentiment across video channels.',
+    fullDetails: 'Processes unstructured viewer comment streams using VADER sentiment scoring and semantic classification. Automatically clusters feedback into actionable categories (feature requests, complaints, praise, bug reports) to inform creator content strategy.',
+    tags: ['NLP', 'Python', 'Sentiment Analysis', 'VADER', 'YouTube Data API', 'Audience Analytics'],
+    github: 'https://github.com/BongaManzini/youtube-commentary-intel',
+    highlight: 'Audience Intelligence NLP',
+    deployment: 'Python NLP Service'
+  },
+  {
+    id: 'cpp-network-monitor',
+    title: 'Network Threat Monitor (C++ / WinPcap)',
+    category: 'Security & Systems',
+    description: 'High-speed Windows desktop packet sniffer and heuristic threat detection utility built in C++ with WinPcap and native Win32 controls.',
+    fullDetails: 'Captures raw IPv4 network traffic directly from physical adapter interfaces in real time. Implements heuristic detection algorithms for port scans, MITM address resolution poisonings, and abnormal bandwidth consumption with a native Win32 GUI HUD.',
+    tags: ['C++', 'WinPcap / Npcap', 'Network Security', 'Win32 API', 'Packet Sniffer', 'Heuristic Detection'],
+    github: 'https://github.com/BongaManzini/network-threat-monitor-cpp',
+    highlight: 'Low-Level Packet Analysis',
+    deployment: 'Win32 Desktop Executable'
+  },
+  {
+    id: 'unisupport-specs',
+    title: 'UniSupport Student Platform Specifications',
+    category: 'Web Apps',
+    description: 'Crowdsourced student assistance ecosystem blueprints, data schemas, verification models, and open-source tooling architecture.',
+    fullDetails: 'Comprehensive system specification covering student peer support crowdsourcing, academic resource verification workflows, database schemas, and microservice integration blueprints tailored for African tertiary education institutions.',
+    tags: ['System Architecture', 'EdTech Specs', 'Data Schemas', 'Crowdsourcing Blueprints', 'Technical Writing'],
+    github: 'https://github.com/BongaManzini/unisupport-architecture-specs',
+    highlight: 'Crowdsourced EdTech Blueprints',
+    deployment: 'System Architecture Specs'
+  },
+  {
+    id: 'tech-proposals-research',
+    title: 'Informatics Research & Innovation Challenge Proposals',
+    category: 'AI & ML',
+    description: 'Curated repository of technical challenge submissions (GKSS, IBM), AI career guidance system architectures, and informatics research papers.',
+    fullDetails: 'Contains competition papers, AI-driven career guidance algorithms, zero-trust perimeter routing slides (IronTunnel), and historical legislative data analysis.',
+    tags: ['Research Proposals', 'IBM Innovation', 'GKSS Challenge', 'Informatics', 'Zero-Trust Architecture'],
+    github: 'https://github.com/BongaManzini/tech-proposals-and-research',
+    highlight: 'Innovation & Research Papers',
+    deployment: 'Research & Publications'
   }
 ];
 
@@ -401,11 +457,11 @@ export default function App() {
           {/* Quick Metrics Bar */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-8 pt-6 border-t border-slate-800/80">
             <div className="p-3 rounded-xl bg-slate-900/50 border border-slate-800">
-              <span className="text-2xl font-black text-cyan-400 font-mono">19</span>
+              <span className="text-2xl font-black text-cyan-400 font-mono">{PROJECTS.length}</span>
               <p className="text-xs text-slate-400 mt-0.5">Engineered Repositories</p>
             </div>
             <div className="p-3 rounded-xl bg-slate-900/50 border border-slate-800">
-              <span className="text-2xl font-black text-emerald-400 font-mono">7</span>
+              <span className="text-2xl font-black text-emerald-400 font-mono">{liveCount}</span>
               <p className="text-xs text-slate-400 mt-0.5">Live Web Deployments</p>
             </div>
             <div className="p-3 rounded-xl bg-slate-900/50 border border-slate-800">

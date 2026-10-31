@@ -1,0 +1,47 @@
+
+*.AppImage
+build/
+# Build outputs
+coverage/
+.dart_tool/
+*.deb
+# Dependencies
+dist/
+*.dmg
+.DS_Store
+*.egg-info/
+.eggs/
+.env
+.env*
+env/
+!.env.example
+.env.local
+*.exe
+# Flutter
+*.freezed.dart
+*.g.dart
+# IDE
+.idea/
+*.key
+# Large files
+*.log
+# Logs
+.next/
+node_modules/
+npm-debug.log*
+# OS
+out/
+*.pem
+*.pyc
+__pycache__/
+# Secrets
+*.swo
+*.swp
+*.tar.gz
+*.tar.xz
+Thumbs.db
+.venv/
+venv/
+.vscode/
+yarn-debug.log*
+*.zip

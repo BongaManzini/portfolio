@@ -1,0 +1,6 @@
+{
+  "name": "Bonga Manzini Portfolio",
+  "description": "A responsive, sleek developer portfolio with a Neo-Minimalist / Cyberpunk aesthetic for Bonga Manzini, systems & solutions developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
